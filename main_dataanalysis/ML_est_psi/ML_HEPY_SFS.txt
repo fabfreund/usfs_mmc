@@ -1,0 +1,21 @@
+# Joined estimation of psi, rho and misindent.
+# VERSION: v1.0
+# SFS Input: /datadisk/git/multiplemerger-project/data_analysis_current/tempsfs.txt
+# Phi Input: /datadisk/git/multiplemerger-project/data_analysis_current/phi_tables_psi/phi.table.HEPY_SFS.txt
+# sampleSize: 69
+# noDataSets: 1
+# minPsi: 0
+# maxPsi: 1
+# noStepsPsi: 20
+# minRho: 0
+# maxRho: 25
+# noStepsRho: 50
+# noIncongruentSites: 8235
+# minMisIdent: 0
+# maxMisIdent: 0.15
+# noStepsMisIdent: 15
+# lumping: 0
+# folded: 0
+
+#dataSet	Alpha	Rho	MisIdent	LogL	ThetaW
+1	0	1	0.15	-4007.9363058304297738	4636.96

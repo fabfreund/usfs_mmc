@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLikelihood-MMC/myEstimationMethod.hpp"
+            timestampString = "498054501.876958"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "class myEstimationMethod"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLikelihood-MMC/myEstimationMethod.cpp"
+            timestampString = "498057099.657386"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "myEstimationMethod::myEstimationMethod(MatrixXmp &amp;A, MatrixXmp &amp;BinomCoeffMatrix, std::vector&lt;int&gt; SFS, double MinPsi, double MaxPsi, double MinRho, double MaxRho, int NoPsiSteps, int NoRhoSteps, double stepsize, int maxIter, double delta_psi , double delta_rho, double tol, double adjust, int lumping, int strategy)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

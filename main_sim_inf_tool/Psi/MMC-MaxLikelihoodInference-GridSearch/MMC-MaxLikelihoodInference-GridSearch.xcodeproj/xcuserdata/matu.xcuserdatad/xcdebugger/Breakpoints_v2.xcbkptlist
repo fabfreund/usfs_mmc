@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myEstimationMethod.cpp"
+            timestampString = "567095215.8877929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "myEstimationMethod::myEstimationMethod( std::vector&lt;std::vector&lt;std::vector&lt;double&gt;&gt;&gt; &amp;Phi, std::vector&lt;std::vector&lt;double&gt;&gt; &amp;T_TotalGrid, std::vector&lt;double&gt; SFS, double MinPsi, double MaxPsi, int noStepsPsi, double MinRho, double MaxRho, int noStepsRho, double minMisIdent, double maxMisIdent, int noStepsMisIdent, int lumping, int noIncongruentSites, bool lhoodMisIdent )"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

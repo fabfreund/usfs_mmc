@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A3CB0BBE-CB17-4C1A-8DBD-5B390E516B6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MMC-ExpectedSFS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CCD26421C09EBCC28E03E596D03B5B71186115F</key>
+		<string>https://bitbucket.org/SebastianMatuszewski/mmc-expectedsfs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MMC-ExpectedSFS/MMC-ExpectedSFS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CCD26421C09EBCC28E03E596D03B5B71186115F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/SebastianMatuszewski/mmc-expectedsfs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CCD26421C09EBCC28E03E596D03B5B71186115F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CCD26421C09EBCC28E03E596D03B5B71186115F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MMC-ExpectedSFS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

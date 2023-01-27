@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB7C0A6B-6F56-4B57-A7CF-B85B61A07E78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MMC-Phi-MaxLikelihood-LookUp-Lokal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AAD551D59BEC4D12BED33C91D127D057E691AABC</key>
+		<string>https://bitbucket.org/SebastianMatuszewski/mmc-phi-maxlikelihood-lookup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MMC-Phi-MaxLikelihood-LookUp-Lokal.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AAD551D59BEC4D12BED33C91D127D057E691AABC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/SebastianMatuszewski/mmc-phi-maxlikelihood-lookup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AAD551D59BEC4D12BED33C91D127D057E691AABC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AAD551D59BEC4D12BED33C91D127D057E691AABC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MMC-Phi-MaxLikelihood-LookUp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

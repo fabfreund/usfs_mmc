@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A617D8E1FD4865C007C6DA3 /* myEstimationMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A617D891FD4865C007C6DA3 /* myEstimationMethod.cpp */; };
+		4A617D8F1FD4865C007C6DA3 /* myIOParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A617D8A1FD4865C007C6DA3 /* myIOParser.cpp */; };
+		4A617D901FD4865C007C6DA3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A617D8C1FD4865C007C6DA3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A617D7D1FD48614007C6DA3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A617D7F1FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MMC-MaxLikelihoodInference-GridSearch"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A617D891FD4865C007C6DA3 /* myEstimationMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myEstimationMethod.cpp; sourceTree = SOURCE_ROOT; };
+		4A617D8A1FD4865C007C6DA3 /* myIOParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myIOParser.cpp; sourceTree = SOURCE_ROOT; };
+		4A617D8B1FD4865C007C6DA3 /* myIOParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = myIOParser.hpp; sourceTree = SOURCE_ROOT; };
+		4A617D8C1FD4865C007C6DA3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		4A617D8D1FD4865C007C6DA3 /* myEstimationMethod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = myEstimationMethod.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A617D7C1FD48614007C6DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A617D761FD48614007C6DA3 = {
+			isa = PBXGroup;
+			children = (
+				4A617D811FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */,
+				4A617D801FD48614007C6DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A617D801FD48614007C6DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A617D7F1FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A617D811FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4A617D8C1FD4865C007C6DA3 /* main.cpp */,
+				4A617D891FD4865C007C6DA3 /* myEstimationMethod.cpp */,
+				4A617D8D1FD4865C007C6DA3 /* myEstimationMethod.hpp */,
+				4A617D8A1FD4865C007C6DA3 /* myIOParser.cpp */,
+				4A617D8B1FD4865C007C6DA3 /* myIOParser.hpp */,
+			);
+			path = "MMC-MaxLikelihoodInference-GridSearch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A617D7E1FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A617D861FD48614007C6DA3 /* Build configuration list for PBXNativeTarget "MMC-MaxLikelihoodInference-GridSearch" */;
+			buildPhases = (
+				4A617D7B1FD48614007C6DA3 /* Sources */,
+				4A617D7C1FD48614007C6DA3 /* Frameworks */,
+				4A617D7D1FD48614007C6DA3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMC-MaxLikelihoodInference-GridSearch";
+			productName = "MMC-MaxLikelihoodInference-GridSearch";
+			productReference = 4A617D7F1FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A617D771FD48614007C6DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = matu;
+				TargetAttributes = {
+					4A617D7E1FD48614007C6DA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A617D7A1FD48614007C6DA3 /* Build configuration list for PBXProject "MMC-MaxLikelihoodInference-GridSearch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A617D761FD48614007C6DA3;
+			productRefGroup = 4A617D801FD48614007C6DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A617D7E1FD48614007C6DA3 /* MMC-MaxLikelihoodInference-GridSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A617D7B1FD48614007C6DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A617D8F1FD4865C007C6DA3 /* myIOParser.cpp in Sources */,
+				4A617D8E1FD4865C007C6DA3 /* myEstimationMethod.cpp in Sources */,
+				4A617D901FD4865C007C6DA3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A617D841FD48614007C6DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A617D851FD48614007C6DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A617D871FD48614007C6DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A617D881FD48614007C6DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A617D7A1FD48614007C6DA3 /* Build configuration list for PBXProject "MMC-MaxLikelihoodInference-GridSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A617D841FD48614007C6DA3 /* Debug */,
+				4A617D851FD48614007C6DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A617D861FD48614007C6DA3 /* Build configuration list for PBXNativeTarget "MMC-MaxLikelihoodInference-GridSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A617D871FD48614007C6DA3 /* Debug */,
+				4A617D881FD48614007C6DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A617D771FD48614007C6DA3 /* Project object */;
+}
