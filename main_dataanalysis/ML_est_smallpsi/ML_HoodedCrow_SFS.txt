@@ -1,7 +1,7 @@
 # Joined estimation of psi, rho and misindent.
 # VERSION: v1.0
-# SFS Input: /datadisk/git/multiplemerger-project/data_analysis_current/tempsfs.txt
-# Phi Input: /datadisk/git/multiplemerger-project/data_analysis_current/phi_tables_smallpsi/phi.table.HoodedCrow_SFS.txt
+# SFS Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/tempsfs.txt
+# Phi Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/phi_tables_smallpsi/phi.table.HoodedCrow_SFS.txt
 # sampleSize: 37
 # noDataSets: 1
 # minPsi: 0
@@ -18,4 +18,4 @@
 # folded: 0
 
 #dataSet	Alpha	Rho	MisIdent	LogL	ThetaW
-1	0	1.5	0	-50966.754382815212011	1.66351e+06
+1	0.01	1	0	-91748.514524471014738	1.38976e+06

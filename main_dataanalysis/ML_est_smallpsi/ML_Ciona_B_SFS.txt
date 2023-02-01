@@ -1,7 +1,7 @@
 # Joined estimation of psi, rho and misindent.
 # VERSION: v1.0
-# SFS Input: /datadisk/git/multiplemerger-project/data_analysis_current/tempsfs.txt
-# Phi Input: /datadisk/git/multiplemerger-project/data_analysis_current/phi_tables_smallpsi/phi.table.Ciona_B_SFS.txt
+# SFS Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/tempsfs.txt
+# Phi Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/phi_tables_smallpsi/phi.table.Ciona_B_SFS.txt
 # sampleSize: 19
 # noDataSets: 1
 # minPsi: 0
@@ -18,4 +18,4 @@
 # folded: 0
 
 #dataSet	Alpha	Rho	MisIdent	LogL	ThetaW
-1	0.07	0	0.02	-131.05101062357516639	243.071
+1	0.07	0	0.02	-139.15547995066754083	282.185

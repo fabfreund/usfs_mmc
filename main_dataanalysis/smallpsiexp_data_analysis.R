@@ -13,7 +13,7 @@ misi <- c(0,.2,20)
 prec1 <- 1000#1000#200#1000 for shark#500 (or 1000?) for Droso 13, Human 33 #200 for rest
 
 #' Number of cores for parallelization  
-mc1 <- 6
+mc1 <- 3
 registerDoMC(mc1)
 
 #' Absolute path to current folder
@@ -26,7 +26,8 @@ sfs_names <- list.files(path = "../sfs_data/real_sfs/")
 
 
 #' compute_phi regulates whether phi table need to be computed 
-#' (with params as above)
+#' (with params as above). For replication of the paper's analysis, 
+#' all tables are precomputed
 compute_phi <- rep(FALSE,length(sfs_names))
 names(compute_phi) <- sfs_names
 
@@ -76,9 +77,9 @@ if (length(sfs1) == s-1){write.table(t(sfs1),file="tempsfs.txt",
   
 com_grid <- "./../main_sim_inf_tool/Psi/MMC-MaxLikelihoodInference-GridSearch/"
 com_grid <- paste0(com_grid,"MMC-MaxLikelihoodInference-GridSearch.out -SFS")
-sfs_name <- paste0(home_dir,"tempsfs.txt") 
+sfs_name <- paste0(home_dir,"/tempsfs.txt") 
 com_grid_v <- paste(com_grid,sfs_name,
-                    "-Phi",paste0(home_dir,"phi_tables_smallpsi/phi.table.",name1),
+                    "-Phi",paste0(home_dir,"/phi_tables_smallpsi/phi.table.",name1),
                     "-minPsi",min(psi_steps),
                     "-maxPsi",max(psi_steps),"-noStepsPsi",n_psis) 
 com_grid_v <- paste(com_grid_v,"-minRho",rhos[1],"-maxRho",rhos[2],"-noStepsRho",rhos[3]) 

@@ -12,7 +12,7 @@ rhos <- c(0,25,50)
 misi <- c(0,.15,15)
 
 #' Number of cores for parallelization  
-mc1 <- 6#Adjust as fits for your system
+mc1 <- 3#Adjust as fits for your system
 registerDoMC(mc1)
 
 #' Absolute path to current folder
@@ -26,7 +26,8 @@ sfs_names <- list.files(path = "../sfs_data/real_sfs/")
 
 #' compute_phi regulates whether phi table need to be computed 
 #' (with params as above)
-compute_phi <- rep(TRUE,length(sfs_names))
+#' We have all phi tables precomputed, so this is by default FALSE
+compute_phi <- rep(FALSE,length(sfs_names))
 names(compute_phi) <- sfs_names
 
 
@@ -75,9 +76,9 @@ if (length(sfs1) == s-1){write.table(t(sfs1),file="tempsfs.txt",
   
 com_grid <- "./../main_sim_inf_tool/Beta/MMC-MaxLikelihoodInference-GridSearch/"
 com_grid <- paste0(com_grid,"MMC-MaxLikelihoodInference-GridSearch.out -SFS")
-sfs_name <- paste0(home_dir,"tempsfs.txt") 
+sfs_name <- paste0(home_dir,"/tempsfs.txt") 
 com_grid_v <- paste(com_grid,sfs_name,
-                    "-Phi",paste0(home_dir,"phi_tables_beta/phi.table.",name1),
+                    "-Phi",paste0(home_dir,"/phi_tables_beta/phi.table.",name1),
                     "-minAlpha 1 -maxAlpha 2 -noStepsAlpha",n_alphas) 
 com_grid_v <- paste(com_grid_v,"-minRho",rhos[1],"-maxRho",rhos[2],"-noStepsRho",rhos[3]) 
 com_grid_v <- paste(com_grid_v,"-minMisIdent",misi[1],"-maxMisIdent",misi[2],"-noStepsMisIdent",misi[3])

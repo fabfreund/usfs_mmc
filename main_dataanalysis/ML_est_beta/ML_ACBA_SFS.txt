@@ -1,7 +1,7 @@
 # Joined estimation of psi, rho and misindent.
 # VERSION: v1.0
-# SFS Input: /datadisk/git/multiplemerger-project/data_analysis_current/tempsfs.txt
-# Phi Input: /datadisk/git/multiplemerger-project/data_analysis_current/phi_tables_beta/phi.table.ACBA_SFS.txt
+# SFS Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/tempsfs.txt
+# Phi Input: /home/schonufb/git_repos/usfs_mmc/main_dataanalysis/phi_tables_beta/phi.table.ACBA_SFS.txt
 # sampleSize: 78
 # noDataSets: 1
 # minAlpha: 1

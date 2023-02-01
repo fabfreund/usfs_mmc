@@ -48,4 +48,4 @@ res1$p_morethantdiv <-round(1-prob_less_tdiv,4)
 
 #save(res1,file = "div_inout_1.RData")
 write.table(res1,row.names = FALSE,
-            file = paste0("div_inout_",spec_name,".txt"))
+            file = paste0("aptenodytes_res/div_inout_",spec_name,".txt"))

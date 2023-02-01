@@ -15,7 +15,8 @@ devanilla <- function(sfs1){
 
 load("res_summaries/mlres_BF_effectsize.RData")
 
-#function to change filenames to recognie GC-bias corrected SFS
+#' convenience function to set filenames of GC-bias corrected SFS to exactly
+#' those of the original, uncorrected SFS
 rename <- function(name1){paste0("../sfs_data/gcbias_corrected_sfs/",strsplit(name1,split = ".txt"),
                                  "_neutral.txt")}
 
@@ -28,7 +29,6 @@ temp1 <- read.table(rename(name1))
 neutralsfs <- temp1[,2]/sum(temp1[,2])
 if (devanil){neutralsfs <- devanilla(neutralsfs)}
 k <- k+1 
-#if (k==9){next}
 xvals <- seq(along=sfs_list[[name1]][["obs"]])
 if (devanil){
 for (mod1 in c("obs","km","beta","psi")){

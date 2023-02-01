@@ -1,0 +1,2 @@
+"pi_insample" "pi_ogroup" "dxy_in_out" "est_tdiv" "p_morethantdiv"
+6.751e-05 0.00011017 0.000364757118968089 4.403 0.0332
