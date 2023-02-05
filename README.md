@@ -4,7 +4,7 @@ This repository contains analysis and simulation pipelines as well as the analys
 
 available on biorxiv: https://www.biorxiv.org/content/10.1101/2022.04.12.488084v2
 
-Please cite this paper if you intend to work with our code.
+Please cite this paper if you intend to work with our code. 
 
 This repository is still in beta state, if there are questions/comments please write to fafreund_popgen*at*gmx.net (replace *at* with @) 
 
@@ -17,8 +17,8 @@ The subfolders contain:
  * main_sim_inf_tool: This contains the main tool (written in C++, needs to be compiled before usage, see README within the folder)   
  * sim_study: Full pipeline for the simulation study part from the paper (we simulated SFS data under different coalescent models and then ran our pseudolikelihood inference method on it to see how well we retrieve the true model and its parameters)
  * supp_analysis: Contains all supplementary analyses scripts 
-	* population structure scan
+	* population structure scans
 	* sliding windows nucleotide diversity for the data samples
-        * comparison of ingroup and between-group nucleotide diversity for sample and outgroup to estimate bias through incomplete lineage sorting (ILS)
-	* adjusted pseudolikelihood model selection and parameter estimation for taking into account transition/transversion information for ancestral allele misidentification
+	* comparison of ingroup and between-group nucleotide diversity for sample and outgroup to estimate bias through incomplete lineage sorting (ILS)
+	* adjusted pseudolikelihood model selection and parameter estimation when taking into account transition/transversion information for ancestral allele misidentification
          
