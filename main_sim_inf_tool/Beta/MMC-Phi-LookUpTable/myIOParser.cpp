@@ -112,8 +112,9 @@ void printHelpMessage()
 	std::cout << std::endl << "MMC-Expected SFS " << VERSION << std::endl << std::endl;
 	std::cout << "Usage:" << std::endl;
 	std::cout << std::setw(20) << "-h/-help"         << "  --  " << "Help. List the following content." << std::endl;
-	std::cout << std::setw(20) << "-MinAlpha FLT"           << "  --  " << "Minimal multiple merger parameter alpha. By default Alpha = 1 is used corresponding to Kingman's Coalescent." << std::endl;
-	std::cout << std::setw(20) << "-MaxAlpha FLT"           << "  --  " << "Maximal multiple merger parameter alpha. By default Alpha = 2 is used." << std::endl;
+	std::cout << std::setw(20) << "-sampleSize INT"          << "  --  " << "Sample size. By default sampleSize = 100" << std::endl;
+	std::cout << std::setw(20) << "-MinAlpha FLT"           << "  --  " << "Minimal multiple merger parameter alpha. By default Alpha = 1 is used corresponding to the Bolthausen-Sznitman Coalescent." << std::endl;
+	std::cout << std::setw(20) << "-MaxAlpha FLT"           << "  --  " << "Maximal multiple merger parameter alpha. By default Alpha = 2 is used, corresponding to Kingman's coalescent." << std::endl;
 	std::cout << std::setw(20) << "-NoStepsAlpha INT"           << "  --  " << "Number of steps between minPsi and maxPsi. By default noStepsAlpha = 100 is used." << std::endl;
 	std::cout << std::setw(20) << "-MinRho FLT"           << "  --  " << "Minimal exponential growth rate rho. By default Rho = 0 is used corresponding to a constant population." << std::endl;
 	std::cout << std::setw(20) << "-MaxRho FLT"           << "  --  " << "Maximal exponential growth rate rho. By default Rho = 5 is used corresponding to a constant population." << std::endl;
