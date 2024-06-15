@@ -115,10 +115,10 @@ void printHelpMessage()
 	std::cout << std::setw(20) << "-sampleSize INT"          << "  --  " << "Sample size. By default sampleSize = 100" << std::endl;
 	std::cout << std::setw(20) << "-MinAlpha FLT"           << "  --  " << "Minimal multiple merger parameter alpha. By default Alpha = 1 is used corresponding to the Bolthausen-Sznitman Coalescent." << std::endl;
 	std::cout << std::setw(20) << "-MaxAlpha FLT"           << "  --  " << "Maximal multiple merger parameter alpha. By default Alpha = 2 is used, corresponding to Kingman's coalescent." << std::endl;
-	std::cout << std::setw(20) << "-NoStepsAlpha INT"           << "  --  " << "Number of steps between minPsi and maxPsi. By default noStepsAlpha = 100 is used." << std::endl;
-	std::cout << std::setw(20) << "-MinRho FLT"           << "  --  " << "Minimal exponential growth rate rho. By default Rho = 0 is used corresponding to a constant population." << std::endl;
-	std::cout << std::setw(20) << "-MaxRho FLT"           << "  --  " << "Maximal exponential growth rate rho. By default Rho = 5 is used corresponding to a constant population." << std::endl;
-	std::cout << std::setw(20) << "-NoStepsRho INT"           << "  --  " << "Number of steps between minRho and maxRho. By default noStepsRho = 20 is used." << std::endl;
+	std::cout << std::setw(20) << "-NoStepsAlpha INT"           << "  --  " << "Number of steps between MinAlpha and MaxAlpha. By default NoStepsAlpha = 100 is used." << std::endl;
+	std::cout << std::setw(20) << "-MinRho FLT"           << "  --  " << "Minimal exponential growth rate rho. By default MinRho = 0 is used corresponding to a constant population." << std::endl;
+	std::cout << std::setw(20) << "-MaxRho FLT"           << "  --  " << "Maximal exponential growth rate rho. By default MaxRho = 5 is used." << std::endl;
+	std::cout << std::setw(20) << "-NoStepsRho INT"           << "  --  " << "Number of steps between MinRho and MaxRho. By default NoStepsRho = 20 is used." << std::endl;
 	std::cout << std::setw(20) << "-precPhi INT"           << "  --  " << "Number of bits used for the multiple precision calculation. By default 100 is used." << std::endl;
 	std::cout << std::setw(20) << "-OUT STR"                << "  --  " << "Specify the FILE PATH where output is written."  << std::endl;
 
