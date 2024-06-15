@@ -149,7 +149,7 @@ void printHelpMessage()
 	std::cout << std::setw(20) << "-minRho FLT"           << "  --  " << "Lower boundary for exponential growth rate rho. By default 0 is used (no growth)." << std::endl;
 	std::cout << std::setw(20) << "-maxRho FLT"           << "  --  " << "Upper boundary for exponential growth rate rho. By default 5 is used." << std::endl;
 	std::cout << std::setw(20) << "-noInCongruentSites INT"           << "  --  " << "Number of incongruent Sites that have been eliminated before calculating the SFS. By default -1 is used. This option implies that misidentification will not be estimated." << std::endl;
-	std::cout << std::setw(20) << "-minMisIdent FLT"           << "  --  " << "Lower boundary for misidentification rate MisIdent. By default 0 is used (no growth)." << std::endl;
+	std::cout << std::setw(20) << "-minMisIdent FLT"           << "  --  " << "Lower boundary for misidentification rate MisIdent. By default 0 is used." << std::endl;
 	std::cout << std::setw(20) << "-maxMisIdent FLT"           << "  --  " << "Upper boundary for misidentification rate MisIdent. By default 0.15 is used." << std::endl;
 	std::cout << std::setw(20) << "-noStepsAlpha INT"           << "  --  " << "Number of equally spaced steps between minAlpha and maxAlpha in grid search algorithm. By default 100 is used." << std::endl;
 	std::cout << std::setw(20) << "-noStepsRho INT"           << "  --  " << "Number of equally spaced steps between minRho and maxRho in grid search algorithm. By default 100 is used." << std::endl;
