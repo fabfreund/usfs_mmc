@@ -1,12 +1,12 @@
-This repository contains analysis and simulation pipelines as well as the analysis result tables/data objects from our recent preprint
+This repository contains analysis and simulation pipelines as well as the analysis result tables/data objects from our article
 
 "Interpreting the pervasive observation of U-shaped Site Frequency Spectra"
 
-available on biorxiv: https://www.biorxiv.org/content/10.1101/2022.04.12.488084v2
+published in PLOS Genetics https://doi.org/10.1371/journal.pgen.1010677
 
 Please cite this paper if you intend to work with our code. 
 
-This repository is still in beta state, if there are questions/comments please write to fafreund_popgen*at*gmx.net (replace *at* with @) 
+If there are questions/comments please write to fafreund_popgen*at*gmx.net (replace *at* with @) 
 
 The subfolders contain:
 
